@@ -6,11 +6,11 @@ $white = imagecolorallocate($im, 255, 255, 255);
 $deployment = getenv("COLOR");
 
 if ( $deployment == 'blue') {
-  $color = imagecolorallocate($im, 12, 134, 255);
+  $color = imagecolorallocate($im, 200, 134, 255);
 } elseif ($deployment == 'green')  {
-  $color = imagecolorallocate($im, 200, 255, 11);
+  $color = imagecolorallocate($im, 111, 255, 11);
 } else {
-  $color = imagecolorallocate($im, 0, 0, 255);
+  $color = imagecolorallocate($im, 4, 34, 255);
 }
 
 // Draw a filled rectangle
